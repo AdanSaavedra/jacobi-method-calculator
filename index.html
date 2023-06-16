@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Calculadora de jacobi</h1>
+    <p>Introduzca la cantidad de iteraciones que desea obtener</p>
+    <input type="number" id="iteracion" />
+    <table>
+      <tr>
+        <td><input type="number" id="00" /></td>
+        <td><input type="number" id="01" /></td>
+        <td><input type="number" id="02" /></td>
+        <td>=</td>
+        <td><input type="number" id="03" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="10" /></td>
+        <td><input type="number" id="11" /></td>
+        <td><input type="number" id="12" /></td>
+        <td>=</td>
+        <td><input type="number" id="13" /></td>
+      </tr>
+      <tr>
+        <td><input type="number" id="20" /></td>
+        <td><input type="number" id="21" /></td>
+        <td><input type="number" id="22" /></td>
+        <td>=</td>
+        <td><input type="number" id="23" /></td>
+      </tr>
+    </table>
+    <button type="button" onclick="llenarMatriz()">Click</button>
+    <div id="list" class="list"></div>
+  </body>
+  <script src="./index.js"></script>
+</html>
