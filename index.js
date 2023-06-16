@@ -35,7 +35,7 @@ const llenarMatriz = () =>{
         [m20, m21, m22, m23]
     ]
 
-    const despeje = ()=>{
+    const despeje = (matriz)=>{
         x = matriz[0][3]/matriz[0][0]
         console.log(x.toFixed(4))
 
@@ -91,6 +91,7 @@ const llenarMatriz = () =>{
         console.log(matriz)
     }
     console.log("Iteracion: 1")
+    despeje(matriz)
     for(var i =1;i< iteracion; i++ ){
         console.log(`Iteracion: ${i+1}`)
         proceso()
